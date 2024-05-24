@@ -25,17 +25,17 @@ Plecs {
   AssertionAction "1"
   InitializationCommands "T_stop=600e-3;\nT_delta=2e-3;\nT_sim=5e-6;\nT_dead=0"
 ".5e-6; %dead time\n\nf_carr=20e3; %carrier frequency\nT_carr=1/f_carr; %carri"
-"er period\nT_samp=T_carr*1; %sampling period\nf_samp=1/T_samp; %sampling freq"
-"uency\nf_bwi=300; %current control bandwith frequency\nf_bwv=f_bwi/10; %curre"
-"nt control bandwith frequency\n\n\nV_dc=750;\nC_dc=1200e-6;\nL_f=100e-6;\na=0"
-".5;\nL_fr=L_f*a;\nL_fg=L_f*(1-a);\nC_f=7e-6;\nR_fd=0.1;\n\nR_f=0.05;\nR_o=100"
-";\n\nf_g=50;\nw_g=2*pi*f_g;\nV_acfn=220*sqrt(2);\nphi=-0.002;\nm_A=0.83;\nh5="
-"0*-0.07;\nh7=0*0.015;\n\n\n%-------------------\n% Controller design\n%------"
-"-------------\nw_i=2*pi*f_bwi; %bandwidth angle\nxi_i=0.707*1; %\n\nw_v=2*pi*"
-"f_bwv;\nxi_v=0.707*1;\n\nKp_i=2*xi_i*w_i*L_f-R_f;\nKi_i=w_i*w_i*L_f;\n\nKp_v2"
-"=2*xi_v*w_v*C_dc/(3*V_acfn);\nKi_v2=w_v*w_v*C_dc/(3*V_acfn);\n\nKp_v=2*xi_v*w"
-"_v*(2*V_dc*C_dc)/(3*V_acfn);\nKi_v=w_v*w_v*(2*V_dc*C_dc)/(3*V_acfn);\n\nR_pc="
-"8;"
+"er period\nT_samp=T_carr*5; %sampling period\nf_samp=1/T_samp; %sampling freq"
+"uency\nf_bwi=700; %current control bandwith frequency\nf_bwv=f_bwi/10; %curre"
+"nt control bandwith frequency\n\nIDC_begin=-50;\nIDC_end=50;\n\n\nV_dc=750;\n"
+"C_dc=1200e-6;\nL_f=100e-6;\na=0.5;\nL_fr=L_f*a;\nL_fg=L_f*(1-a);\nC_f=7e-6;\n"
+"R_fd=0.1;\n\nR_f=0.05;\nR_o=100;\n\nf_g=50;\nw_g=2*pi*f_g;\nV_acfn=220*sqrt(2"
+");\nphi=-0.002;\nm_A=0.83;\nh5=0*-0.07;\nh7=0*0.015;\n\n\n%------------------"
+"-\n% Controller design\n%-------------------\nw_i=2*pi*f_bwi; %bandwidth angl"
+"e\nxi_i=0.707*1; %\n\nw_v=2*pi*f_bwv;\nxi_v=0.707*1;\n\nKp_i=2*xi_i*w_i*L_f-R"
+"_f;\nKi_i=w_i*w_i*L_f;\n\nKp_v2=2*xi_v*w_v*C_dc/(3*V_acfn);\nKi_v2=w_v*w_v*C_"
+"dc/(3*V_acfn);\n\nKp_v=2*xi_v*w_v*(2*V_dc*C_dc)/(3*V_acfn);\nKi_v=w_v*w_v*(2*"
+"V_dc*C_dc)/(3*V_acfn);\n\nR_pc=8;"
   InitialState  "1"
   SystemState   ""
   TaskingMode   "1"
@@ -72,17 +72,17 @@ Plecs {
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [961, 31; 1919, 1011]
+      Location      [961, 31; 1919, 1021]
       State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAAD1fwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
 "///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA9UAAABmAP///wAAAAMAAAQ4AAAAffw"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAABDgAAABQAP///wAAA74AAAO5AAAA"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAABDgAAABQAP///wAAA74AAAPDAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAB"
-"AAAAGQAAAAJAAAAZAAAAAgAAABkAAAAAwAAAGQAAAACAAAAZAAAAAEAAABkAAAABwAAAGQAAAAGAA"
-"AAZAAAAAUAAABkAAABBwAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAADjAAA"
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAA"
+"wAAAGQAAAACAAAAZAAAAAUAAABkAAAABAAAAGQAAAAHAAAAZAAAAAYAAABkAAAACQAAAGQAAAAIAA"
+"AAZAAAAAEAAABkAAABBwAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAADjAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
 "AAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -308,7 +308,7 @@ Plecs {
         Direction     right
       }
       Schematic {
-        Location      [904, 359; 1648, 608]
+        Location      [90, 353; 834, 602]
         ZoomFactor    1
         SliderPosition [0, 0]
         ShowBrowser   off
@@ -487,18 +487,18 @@ Plecs {
           Direction     up
           Flipped       off
           LabelPosition south
-          Location      [1275, 62; 1869, 946]
+          Location      [961, 31; 1919, 1011]
           State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADT/wCAAAAA/sAAAAQAFoAb"
 "wBvAG0AQQByAGUAYQAAAAAA/////wAAAFwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwIAAA"
 "OuAAABzgAAAMgAAAB4+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA08AAABmAP///wAAAAMAAAAAAAA"
-"AAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAAlIAAANZ"
+"AAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74AAAO5"
 "AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AA"
 "AAAAAAAAA=="
           SavedViews    "AAAAAgAAAAA="
           HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJA"
-"AAAAwAAAGQAAAABAAAAZAAAAAgAAABkAAAACQAAAGQAAAAGAAAAZAAAAAcAAABkAAAABAAAAGQAAA"
-"AFAAAAZAAAAAIAAABkAAAAhAAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAB"
-"gAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAA"
+"AAAAwAAAGQAAAACAAAAZAAAAAUAAABkAAAABAAAAGQAAAAHAAAAZAAAAAYAAABkAAAACQAAAGQAAA"
+"AIAAAAZAAAAAEAAABkAAAAjwAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAB"
+"rAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAA"
 "AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAA"
 "AAAAAAkAAAAAQAAAAAAAAPoAAAAACQ="
           PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -507,13 +507,13 @@ Plecs {
           TimeRange     "0"
           ScrollingMode "1"
           SingleTimeAxis "1"
-          Open          "0"
+          Open          "1"
           Ts            "-1"
           SampleLimit   "0"
-          XAxisLabel    ""
+          XAxisLabel    "time"
           ShowLegend    "1"
           Axis {
-            Name          ""
+            Name          "U* (duty cycle)"
             AutoScale     1
             MinValue      0
             MaxValue      1
@@ -524,7 +524,7 @@ Plecs {
             BaselineValue 0
           }
           Axis {
-            Name          ""
+            Name          "Carrier"
             AutoScale     1
             MinValue      0
             MaxValue      1
@@ -765,7 +765,7 @@ Plecs {
       Frame         [-20, -10; 20, 10]
       Parameter {
         Variable      "Value"
-        Value         "750"
+        Value         "V_dc"
         Show          off
       }
       Parameter {
@@ -1048,17 +1048,17 @@ Plecs {
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [961, 31; 1919, 1011]
+      Location      [961, 31; 1919, 1021]
       State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAAEEvwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
 "///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAABBIAAABmAP///wAAAAMAAAQ4AAAA5fw"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAABDgAAABQAP///wAAA74AAAO5AAAA"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAABDgAAABQAP///wAAA74AAAPDAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAB"
-"AAAAGQAAAAJAAAAZAAAAAgAAABkAAAAAwAAAGQAAAACAAAAZAAAAAEAAABkAAAABwAAAGQAAAAGAA"
-"AAZAAAAAUAAABkAAAA1AAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAACwAAA"
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAA"
+"wAAAGQAAAACAAAAZAAAAAUAAABkAAAABAAAAGQAAAAHAAAAZAAAAAYAAABkAAAACQAAAGQAAAAIAA"
+"AAZAAAAAEAAABkAAAA1AAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAACwAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
 "AAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -2908,7 +2908,7 @@ Plecs {
         }
         Component {
           Type          Subsystem
-          Name          base64 "U2F0dXJhY2nDs24="
+          Name          "Saturation"
           Show          on
           Position      [605, 215]
           Direction     up
@@ -4102,7 +4102,7 @@ Plecs {
           Type          Signal
           SrcComponent  "From16"
           SrcTerminal   1
-          DstComponent  base64 "U2F0dXJhY2nDs24="
+          DstComponent  "Saturation"
           DstTerminal   2
         }
         Connection {
@@ -4131,12 +4131,12 @@ Plecs {
           Type          Signal
           SrcComponent  "Sum3"
           SrcTerminal   1
-          DstComponent  base64 "U2F0dXJhY2nDs24="
+          DstComponent  "Saturation"
           DstTerminal   3
         }
         Connection {
           Type          Signal
-          SrcComponent  base64 "U2F0dXJhY2nDs24="
+          SrcComponent  "Saturation"
           SrcTerminal   1
           Points        [650, 170]
           Branch {
@@ -4303,20 +4303,6 @@ Plecs {
         }
         Connection {
           Type          Signal
-          SrcComponent  "Feed-forward"
-          SrcTerminal   1
-          Points        [535, 115; 535, 145]
-          Branch {
-            DstComponent  "Sum3"
-            DstTerminal   2
-          }
-          Branch {
-            DstComponent  "Sum5"
-            DstTerminal   2
-          }
-        }
-        Connection {
-          Type          Signal
           SrcComponent  "const7"
           SrcTerminal   1
           DstComponent  "Display7"
@@ -4335,6 +4321,20 @@ Plecs {
           SrcTerminal   1
           DstComponent  "Display9"
           DstTerminal   1
+        }
+        Connection {
+          Type          Signal
+          SrcComponent  "Feed-forward"
+          SrcTerminal   1
+          Points        [535, 115; 535, 145]
+          Branch {
+            DstComponent  "Sum3"
+            DstTerminal   2
+          }
+          Branch {
+            DstComponent  "Sum5"
+            DstTerminal   2
+          }
         }
       }
     }
@@ -4846,7 +4846,7 @@ Plecs {
           }
           Parameter {
             Variable      "v_init"
-            Value         "750"
+            Value         "V_dc"
             Show          off
           }
         }
@@ -6053,12 +6053,12 @@ Plecs {
           }
           Parameter {
             Variable      "Before"
-            Value         "-50"
+            Value         "IDC_begin"
             Show          off
           }
           Parameter {
             Variable      "After"
-            Value         "50"
+            Value         "IDC_end"
             Show          off
           }
           Parameter {
@@ -12584,20 +12584,20 @@ Plecs {
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [961, 31; 1919, 1011]
+      Location      [961, 31; 1919, 1021]
       State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAAEEvwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
 "///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAABBIAAABmAP///wAAAAMAAAO+AAAA5fw"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAA74AAAO5AAAA"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAA74AAAPDAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAB"
-"AAAAGQAAAAJAAAAZAAAAAgAAABkAAAAAwAAAGQAAAACAAAAZAAAAAEAAABkAAAABwAAAGQAAAAGAA"
-"AAZAAAAAUAAABkAAADrQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAABiAAA"
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAA"
+"wAAAGQAAAACAAAAZAAAAAUAAABkAAAABAAAAGQAAAAHAAAAZAAAAAYAAABkAAAACQAAAGQAAAAIAA"
+"AAZAAAAAEAAABkAAAAhgAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAABiAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
-"ANLAAAAAQAAAAAAAAPoAAAAACQ="
+"AAkAAAAAQAAAAAAAAPoAAAAACQ="
       PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA"
 "AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 "AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -14204,4 +14204,4 @@ Plecs {
     } 
   }
 }
-DemoSignature "q4WxqK6+yq06Xd+IbApqFwvASJ9vZ0+QD7QaXaAyhFg="
+DemoSignature "FNGw1ZSgMUngN7x8Czs8GkxVPLNMTkFPVebbxpQ7w9Y="
