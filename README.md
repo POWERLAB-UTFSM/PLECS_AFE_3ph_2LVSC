@@ -11,3 +11,13 @@ Dr.-Ing. Alan Wilson [{1}](mailto:alan.wilson@usm.cl)[{2}](mailto:alan.h.wilson@
 ## File and folder Content
 
 [AFE_3ph_2LVSC_TEST.plecs](AFE_3ph_2LVSC_TEST.plecs): PLECS simulation of the AC-DC rectifier with VOC control, using arbitrary parameters (only for testing).
+
+## Repository
+
+### Clone repository to local
+
+1. Install [Git](https://git-scm.com/downloads)
+1. Clone repository
+	```bpowershell
+	git clone https://github.com/POWERLAB-UTFSM/PLECS_AFE_3ph_2LVSC.git
+	```
