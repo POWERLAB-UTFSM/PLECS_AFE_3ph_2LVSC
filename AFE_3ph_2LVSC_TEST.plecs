@@ -27,22 +27,22 @@ Plecs {
 "----------------\nT_stop=500e-3; %simulation stop time\nT_begin=0; %simulatio"
 "n begin time\nT_dead=0.5e-6; %dead time (anti shoot through)\nT_sim=T_dead/5;"
 " %fixed-step simulation time\n\nf_carr=40e3; %carrier frequency\nT_carr=1/f_c"
-"arr; %carrier period\nT_samp=T_carr*6; %sampling period\nf_samp=1/T_samp; %sa"
-"mpling frequency\nf_bwi=500; %current control bandwith frequency\nf_bwv=f_bwi"
-"/10; %current control bandwith frequency\n\n%----------------\n% grid\n%-----"
-"-----------\nf_g=50; %grid fundamental frequency\nw_g=2*pi*f_g; %grid fundame"
-"ntal angle\nV_acfnrms=220; %grid rms voltage\nV_acfn=V_acfnrms*sqrt(2); %grid"
-" voltage amplitude\nh_array=[1 5 7]; %harmonic amplitude vector\nV_acfc_h_arr"
-"ay=1.*[1 -0.07.*0 0.015.*0]; %harmonic vector\n\n%----------------\n% power l"
-"imit\n%----------------\nP_DC=30e3; %rated DC power\nI_DCmax=40; %maximum DC "
-"current\nI_ACmax=sqrt(2)*P_DC/(3*V_acfnrms);\n\n%----------------\n% dc load"
+"arr; %carrier period\nT_samp=T_carr*1; %sampling period\nf_samp=1/T_samp; %sa"
+"mpling frequency\nf_bwi=1000; %current control bandwith frequency\nf_bwv=f_bw"
+"i/10; %current control bandwith frequency\n\n%----------------\n% grid\n%----"
+"------------\nf_g=50; %grid fundamental frequency\nw_g=2*pi*f_g; %grid fundam"
+"ental angle\nV_acfnrms=220; %grid rms voltage\nV_acfn=V_acfnrms*sqrt(2); %gri"
+"d voltage amplitude\nh_array=[1 5 7]; %harmonic amplitude vector\nV_acfc_h_ar"
+"ray=1.*[1 -0.07.*0 0.015.*0]; %harmonic vector\n\n%----------------\n% power "
+"limit\n%----------------\nP_DC=30e3; %rated DC power\nI_DCmax=40; %maximum DC"
+" current\nI_ACmax=sqrt(2)*P_DC/(3*V_acfnrms);\n\n%----------------\n% dc load"
 "\n%----------------\nIDC_begin=20; %initial impact DC current\nIDC_end=-20; %"
 "final impact DC current\n\n%----------------\n% dc-link\n%----------------\nV"
 "_dc=750; %dc-link voltage\nC_dc=1200e-6; %dc-link capacitance\n\n%-----------"
-"-----\n% line filter\n%----------------\nL_f=300e-6; %total inductance\na=0.9"
+"-----\n% line filter\n%----------------\nL_f=150e-6; %total inductance\na=0.9"
 "; %rectifier:grid inductance ratio\nL_fr=L_f*a; % rectifier-side inductance\n"
 "L_fg=L_f*(1-a); % grid-side inductance\nC_f=6e-6; %capacitance\nR_fd=0.1; %se"
-"ries damping  resistance\nR_f=0.05; %filter series coil resistance\ns_cfilt=0"
+"ries damping  resistance\nR_f=0.05; %filter series coil resistance\ns_cfilt=1"
 "; %enable line filter capacitance (LCL)\nR_o=100;\n\n%-------------------\n% "
 "Controller design\n%-------------------\n\nvdcloop=1; % voltage controller se"
 "lector (1: vdc; 0: vdc^2)\n\nw_i=2*pi*f_bwi; %bandwidth angle\nxi_i=0.707*1; "
@@ -86,20 +86,19 @@ Plecs {
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [961, 31; 1919, 1040]
-      State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAAD1vwCAAAAA/sAAAAQAFoAbwBvA"
+      Location      [961, 31; 1919, 1011]
+      State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADOPwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
-"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA9YAAABmAP///wAAAAMAAAO+AAAAffw"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAA74AAAPWAAAA"
+"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMBAAAALwAAAzgAAABmAP///wAAAAMAAAO+AAAAffw"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAA74AAABQAP///wAAAwYAAAM4AAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAB"
-"QAAAGQAAAACAAAAZAAAAAMAAABkAAAAAQAAAGQAAAAIAAAAZAAAAAkAAABkAAAABgAAAGQAAAAHAA"
-"AAZAAAAAQAAABkAAAAdQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAABRAAA"
-"AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
-"AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
-"AAkAAAAAQAAAAAAAAPoAAAAACQ="
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL8AEAAAAFAAAAC"
+"AAAAGQAAAAGAAAAZAAAAAcAAABkAAAABAAAAGQAAAAFAAAAZAAAA60AAAALAQAAAQAAAAAAAAAAAA"
+"AAAGT/////AAAAgQAAAAAAAAALAAAA4wAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAA"
+"AZAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAA"
+"AAAAAAAAAAEAAAAAAAAAZAAAAAEAAAAAAAABOgAAAAEAAAAAAAAD6AAAAAAk"
       PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA"
 "AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 "AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -449,17 +448,17 @@ Plecs {
           Direction     up
           Flipped       off
           LabelPosition south
-          Location      [961, 31; 1919, 1029]
+          Location      [961, 31; 1919, 1049]
           State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADwfwCAAAAA/sAAAAQAFoAb"
 "wBvAG0AQQByAGUAYQAAAAAA/////wAAAIQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwIAAA"
 "OuAAABzgAAAMgAAAB4+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA8EAAABmAP///wAAAAMAAAAAAAA"
-"AAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74AAAPL"
+"AAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74AAAPf"
 "AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AA"
 "AAAAAAAAA=="
           SavedViews    "AAAAAgAAAAA="
           HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJA"
-"AAABQAAAGQAAAACAAAAZAAAAAMAAABkAAAAAQAAAGQAAAAIAAAAZAAAAAkAAABkAAAABgAAAGQAAA"
-"AHAAAAZAAAAAQAAABkAAAAvAAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
+"AAACAAAAGQAAAAJAAAAZAAAAAYAAABkAAAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAA"
+"ADAAAAZAAAAAEAAABkAAAAvAAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
 "YAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAA"
 "AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAA"
 "AAAAAAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -4122,17 +4121,17 @@ Plecs {
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [961, 31; 1919, 1031]
-      State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADzfwCAAAAA/sAAAAQAFoAbwBvA"
+      Location      [961, 31; 1919, 1011]
+      State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADufwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
-"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA80AAABmAP///wAAAAMAAAO+AAAA5fw"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAA74AAAPNAAAA"
+"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMBAAAALwAAA7kAAABmAP///wAAAAMAAAO+AAAA5fw"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAAwYAAAO5AAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAB"
-"QAAAGQAAAACAAAAZAAAAAMAAABkAAAAAQAAAGQAAAAIAAAAZAAAAAkAAABkAAAABgAAAGQAAAAHAA"
-"AAZAAAAAQAAABkAAAAdQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAABRAAA"
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAC"
+"AAAAGQAAAAJAAAAZAAAAAYAAABkAAAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAAADAA"
+"AAZAAAAAEAAABkAAAAhgAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAABiAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
 "AAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -8197,14 +8196,14 @@ Plecs {
               Type          Constant
               Name          "cripple"
               Show          on
-              Position      [140, 410]
+              Position      [130, 410]
               Direction     right
               Flipped       off
               LabelPosition south
               Frame         [-20, -10; 20, 10]
               Parameter {
                 Variable      "Value"
-                Value         "4.8"
+                Value         "7"
                 Show          off
               }
               Parameter {
@@ -8221,17 +8220,17 @@ Plecs {
               Direction     up
               Flipped       off
               LabelPosition south
-              Location      [961, 31; 1919, 1011]
+              Location      [961, 31; 1919, 1031]
               State         "AAAA/wAAAAD9AAAAAgAAAAEAAAAAAAAAAPwCAAAAA/sAAAAQA"
 "FoAbwBvAG0AQQByAGUAYQAAAAAA/////wAAANQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcw"
 "AAAAAA/////wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAAAP////8AAABmAP///wAAAAMAAAA"
 "AAAAAAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74A"
-"AAO5AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP///"
+"AAPNAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP///"
 "/8AAAAAAAAAAA=="
               SavedViews    "AAAAAgAAAAA="
               HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAA"
-"AAJAAAABQAAAGQAAAACAAAAZAAAAAMAAABkAAAAAQAAAGQAAAAIAAAAZAAAAAkAAABkAAAABgAAAG"
-"QAAAAHAAAAZAAAAAQAAABkAAAApwAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAs"
+"AAJAAAACAAAAGQAAAAJAAAAZAAAAAYAAABkAAAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAG"
+"QAAAADAAAAZAAAAAEAAABkAAAApwAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAs"
 "AAACDAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAA"
 "AAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA"
 "QAAAAAAAAAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -8277,7 +8276,7 @@ Plecs {
                 MaxValue      1
                 Signals       {}
                 SignalTypes   [ ]
-                Untangle      1
+                Untangle      0
                 KeepBaseline  off
                 BaselineValue 0
               }
@@ -8666,21 +8665,65 @@ Plecs {
               }
             }
             Component {
-              Type          Gain
-              Name          "Gain2"
+              Type          Math
+              Name          "Math1"
               Show          on
-              Position      [210, 440]
-              Direction     right
+              Position      [210, 470]
+              Direction     up
               Flipped       off
               LabelPosition south
               Parameter {
-                Variable      "K"
-                Value         "0.9"
+                Variable      "Operator"
+                Value         "5"
+                Show          off
+              }
+            }
+            Component {
+              Type          Constant
+              Name          "cripple1"
+              Show          on
+              Position      [130, 475]
+              Direction     right
+              Flipped       off
+              LabelPosition south
+              Frame         [-20, -10; 20, 10]
+              Parameter {
+                Variable      "Value"
+                Value         "1"
                 Show          off
               }
               Parameter {
-                Variable      "Multiplication"
-                Value         "1"
+                Variable      "DataType"
+                Value         "10"
+                Show          off
+              }
+            }
+            Component {
+              Type          Math
+              Name          "Math2"
+              Show          on
+              Position      [210, 425]
+              Direction     up
+              Flipped       off
+              LabelPosition south
+              Parameter {
+                Variable      "Operator"
+                Value         "5"
+                Show          off
+              }
+            }
+            Component {
+              Type          Constant
+              Name          "c3"
+              Show          on
+              Position      [280, 465]
+              Direction     right
+              Flipped       off
+              LabelPosition south
+              Frame         [-10, -10; 10, 10]
+              Parameter {
+                Variable      "Value"
+                Value         "0"
                 Show          off
               }
               Parameter {
@@ -8959,14 +9002,6 @@ Plecs {
             }
             Connection {
               Type          Signal
-              SrcComponent  "Product5"
-              SrcTerminal   1
-              Points        [310, 425; 310, 395]
-              DstComponent  "Switch1"
-              DstTerminal   3
-            }
-            Connection {
-              Type          Signal
               SrcComponent  "Abs"
               SrcTerminal   2
               Points        [180, 355]
@@ -8975,8 +9010,7 @@ Plecs {
                 DstTerminal   1
               }
               Branch {
-                Points        [180, 420]
-                DstComponent  "Product5"
+                DstComponent  "Math2"
                 DstTerminal   2
               }
             }
@@ -8984,16 +9018,16 @@ Plecs {
               Type          Signal
               SrcComponent  "cripple"
               SrcTerminal   1
-              Points        [170, 410]
+              Points        [160, 410]
               Branch {
                 Points        [190, 410; 190, 365]
                 DstComponent  "Relational\nOperator"
                 DstTerminal   2
               }
               Branch {
-                Points        [170, 440]
-                DstComponent  "Gain2"
-                DstTerminal   1
+                Points        [160, 465]
+                DstComponent  "Math1"
+                DstTerminal   2
               }
             }
             Connection {
@@ -9035,9 +9069,9 @@ Plecs {
             }
             Connection {
               Type          Signal
-              SrcComponent  "Gain2"
-              SrcTerminal   2
-              Points        [240, 440; 240, 430]
+              SrcComponent  "Math1"
+              SrcTerminal   1
+              Points        [240, 470; 240, 430]
               DstComponent  "Product5"
               DstTerminal   3
             }
@@ -9056,11 +9090,42 @@ Plecs {
                 DstTerminal   5
               }
             }
+            Connection {
+              Type          Signal
+              SrcComponent  "Math2"
+              SrcTerminal   1
+              Points        [235, 425; 235, 420]
+              DstComponent  "Product5"
+              DstTerminal   2
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "cripple1"
+              SrcTerminal   1
+              Points        [170, 475]
+              Branch {
+                DstComponent  "Math1"
+                DstTerminal   3
+              }
+              Branch {
+                Points        [170, 430]
+                DstComponent  "Math2"
+                DstTerminal   3
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "c3"
+              SrcTerminal   1
+              Points        [315, 465; 315, 395]
+              DstComponent  "Switch1"
+              DstTerminal   3
+            }
             Annotation {
               Name          "<html><body>\n<p>Ben-Brahim, L., &quot;The analys"
 "is and Compensation of dead-time effects in three phase PWM inverters&quot;</"
 "p>\n<p>doi: 10.1109/IECON.1998.724194</p></body></html>"
-              Position      [385, 485]
+              Position      [385, 550]
             } 
             Annotation {
               Name          "<html><body>\n<p>Dimas A. Schuetz et al., &quot;D"
@@ -13556,17 +13621,17 @@ Plecs {
           Direction     up
           Flipped       off
           LabelPosition south
-          Location      [961, 31; 1919, 1040]
+          Location      [961, 31; 1919, 1060]
           State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADzPwCAAAAA/sAAAAQAFoAb"
 "wBvAG0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAA"
 "AA/////wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA8wAAABmAP///wAAAAMAAAQ4AAA"
-"A5fwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAABDgAAABQAP///wAAA74AAAPW"
+"A5fwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAABDgAAABQAP///wAAA74AAAPq"
 "AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AA"
 "AAAAAAAAA=="
           SavedViews    "AAAAAgAAAAA="
           HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJA"
-"AAABQAAAGQAAAACAAAAZAAAAAMAAABkAAAAAQAAAGQAAAAIAAAAZAAAAAkAAABkAAAABgAAAGQAAA"
-"AHAAAAZAAAAAQAAABkAAAA1AAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
+"AAACAAAAGQAAAAJAAAAZAAAAAYAAABkAAAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAA"
+"ADAAAAZAAAAAEAAABkAAAA1AAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
 "wAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAA"
 "AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAA"
 "AAAAAAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -15479,4 +15544,4 @@ Plecs {
     } 
   }
 }
-DemoSignature "L4g7lAvhwOzTFp+1N72xhWm8+Fot2uRH9UVylPDwQ2A="
+DemoSignature "by1v3yzgN6HI7tFgBiRIqZCt1GZCEdIo0VZq3KbYlOg="
