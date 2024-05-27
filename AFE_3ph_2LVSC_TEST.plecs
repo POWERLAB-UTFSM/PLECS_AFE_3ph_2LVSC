@@ -27,7 +27,7 @@ Plecs {
 "----------------\nT_stop=500e-3; %simulation stop time\nT_begin=0; %simulatio"
 "n begin time\nT_dead=0.5e-6; %dead time (anti shoot through)\nT_sim=T_dead/5;"
 " %fixed-step simulation time\n\nf_carr=40e3; %carrier frequency\nT_carr=1/f_c"
-"arr; %carrier period\nT_samp=T_carr*5; %sampling period\nf_samp=1/T_samp; %sa"
+"arr; %carrier period\nT_samp=T_carr*6; %sampling period\nf_samp=1/T_samp; %sa"
 "mpling frequency\nf_bwi=500; %current control bandwith frequency\nf_bwv=f_bwi"
 "/10; %current control bandwith frequency\n\n%----------------\n% grid\n%-----"
 "-----------\nf_g=50; %grid fundamental frequency\nw_g=2*pi*f_g; %grid fundame"
@@ -39,7 +39,7 @@ Plecs {
 "\n%----------------\nIDC_begin=20; %initial impact DC current\nIDC_end=-20; %"
 "final impact DC current\n\n%----------------\n% dc-link\n%----------------\nV"
 "_dc=750; %dc-link voltage\nC_dc=1200e-6; %dc-link capacitance\n\n%-----------"
-"-----\n% line filter\n%----------------\nL_f=200e-6; %total inductance\na=0.9"
+"-----\n% line filter\n%----------------\nL_f=300e-6; %total inductance\na=0.9"
 "; %rectifier:grid inductance ratio\nL_fr=L_f*a; % rectifier-side inductance\n"
 "L_fg=L_f*(1-a); % grid-side inductance\nC_f=6e-6; %capacitance\nR_fd=0.1; %se"
 "ries damping  resistance\nR_f=0.05; %filter series coil resistance\ns_cfilt=0"
@@ -86,20 +86,20 @@ Plecs {
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [961, 31; 1919, 1030]
-      State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADzPwCAAAAA/sAAAAQAFoAbwBvA"
+      Location      [961, 31; 1919, 1040]
+      State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAAD1vwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
-"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA8wAAABmAP///wAAAAMAAAO+AAAAffw"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAA74AAAPMAAAA"
+"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA9YAAABmAP///wAAAAMAAAO+AAAAffw"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAA74AAAPWAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
       HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAB"
-"QAAAGQAAAAGAAAAZAAAAAcAAABkAAAACAAAAGQAAAAJAAAAZAAAAAEAAABkAAAAAgAAAGQAAAADAA"
-"AAZAAAAAQAAABkAAADrQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAADcAAA"
+"QAAAGQAAAACAAAAZAAAAAMAAABkAAAAAQAAAGQAAAAIAAAAZAAAAAkAAABkAAAABgAAAGQAAAAHAA"
+"AAZAAAAAQAAABkAAAAdQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAABRAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
-"ALRAAAAAQAAAAAAAAPoAAAAACQ="
+"AAkAAAAAQAAAAAAAAPoAAAAACQ="
       PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA"
 "AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 "AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -449,17 +449,17 @@ Plecs {
           Direction     up
           Flipped       off
           LabelPosition south
-          Location      [961, 31; 1919, 1019]
+          Location      [961, 31; 1919, 1029]
           State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADwfwCAAAAA/sAAAAQAFoAb"
 "wBvAG0AQQByAGUAYQAAAAAA/////wAAAIQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwIAAA"
 "OuAAABzgAAAMgAAAB4+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA8EAAABmAP///wAAAAMAAAAAAAA"
-"AAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74AAAPB"
+"AAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74AAAPL"
 "AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AA"
 "AAAAAAAAA=="
           SavedViews    "AAAAAgAAAAA="
           HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJA"
-"AAABQAAAGQAAAAGAAAAZAAAAAcAAABkAAAACAAAAGQAAAAJAAAAZAAAAAEAAABkAAAAAgAAAGQAAA"
-"ADAAAAZAAAAAQAAABkAAAAvAAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
+"AAABQAAAGQAAAACAAAAZAAAAAMAAABkAAAAAQAAAGQAAAAIAAAAZAAAAAkAAABkAAAABgAAAGQAAA"
+"AHAAAAZAAAAAQAAABkAAAAvAAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
 "YAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAA"
 "AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAA"
 "AAAAAAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -4122,20 +4122,20 @@ Plecs {
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [961, 31; 1919, 1021]
-      State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADw/wCAAAAA/sAAAAQAFoAbwBvA"
+      Location      [961, 31; 1919, 1031]
+      State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADzfwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
-"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA8MAAABmAP///wAAAAMAAAO+AAAA5fw"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAA74AAAPDAAAA"
+"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA80AAABmAP///wAAAAMAAAO+AAAA5fw"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAA74AAAPNAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
       HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAB"
-"QAAAGQAAAAGAAAAZAAAAAcAAABkAAAACAAAAGQAAAAJAAAAZAAAAAEAAABkAAAAAgAAAGQAAAADAA"
-"AAZAAAAAQAAABkAAADvgAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAABRAAA"
+"QAAAGQAAAACAAAAZAAAAAMAAABkAAAAAQAAAGQAAAAIAAAAZAAAAAkAAABkAAAABgAAAGQAAAAHAA"
+"AAZAAAAAQAAABkAAAAdQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAABRAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
-"ANtAAAAAQAAAAAAAAPoAAAAACQ="
+"AAkAAAAAQAAAAAAAAPoAAAAACQ="
       PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA"
 "AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 "AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -8183,7 +8183,7 @@ Plecs {
               Type          RelationalOperator
               Name          "Relational\nOperator"
               Show          on
-              Position      [215, 365]
+              Position      [235, 360]
               Direction     right
               Flipped       off
               LabelPosition south
@@ -8204,7 +8204,7 @@ Plecs {
               Frame         [-20, -10; 20, 10]
               Parameter {
                 Variable      "Value"
-                Value         "9.5"
+                Value         "4.8"
                 Show          off
               }
               Parameter {
@@ -8221,18 +8221,18 @@ Plecs {
               Direction     up
               Flipped       off
               LabelPosition south
-              Location      [397, 81; 928, 899]
+              Location      [961, 31; 1919, 1011]
               State         "AAAA/wAAAAD9AAAAAgAAAAEAAAAAAAAAAPwCAAAAA/sAAAAQA"
 "FoAbwBvAG0AQQByAGUAYQAAAAAA/////wAAANQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcw"
 "AAAAAA/////wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAAAP////8AAABmAP///wAAAAMAAAA"
-"AAAAAAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAAhMA"
-"AAMXAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP///"
+"AAAAAAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74A"
+"AAO5AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP///"
 "/8AAAAAAAAAAA=="
               SavedViews    "AAAAAgAAAAA="
               HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAA"
-"AAJAAAABQAAAGQAAAAGAAAAZAAAAAcAAABkAAAACAAAAGQAAAAJAAAAZAAAAAEAAABkAAAAAgAAAG"
-"QAAAADAAAAZAAAAAQAAABkAAAAqgAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAs"
-"AAACGAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAA"
+"AAJAAAABQAAAGQAAAACAAAAZAAAAAMAAABkAAAAAQAAAGQAAAAIAAAAZAAAAAkAAABkAAAABgAAAG"
+"QAAAAHAAAAZAAAAAQAAABkAAAApwAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAs"
+"AAACDAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAA"
 "AAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA"
 "QAAAAAAAAAkAAAAAQAAAAAAAAPoAAAAACQ="
               PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -8365,7 +8365,7 @@ Plecs {
               Type          Abs
               Name          "Abs"
               Show          on
-              Position      [145, 360]
+              Position      [145, 355]
               Direction     right
               Flipped       off
               LabelPosition south
@@ -8606,7 +8606,7 @@ Plecs {
               Type          SignalSwitch
               Name          "Switch1"
               Show          on
-              Position      [360, 400]
+              Position      [365, 390]
               Direction     right
               Flipped       off
               LabelPosition south
@@ -8645,7 +8645,7 @@ Plecs {
               Type          Product
               Name          "Product5"
               Show          off
-              Position      [270, 430]
+              Position      [280, 425]
               Direction     up
               Flipped       off
               LabelPosition south
@@ -8657,6 +8657,30 @@ Plecs {
               Parameter {
                 Variable      "Inputs"
                 Value         "*/"
+                Show          off
+              }
+              Parameter {
+                Variable      "DataType"
+                Value         "10"
+                Show          off
+              }
+            }
+            Component {
+              Type          Gain
+              Name          "Gain2"
+              Show          on
+              Position      [210, 440]
+              Direction     right
+              Flipped       off
+              LabelPosition south
+              Parameter {
+                Variable      "K"
+                Value         "0.9"
+                Show          off
+              }
+              Parameter {
+                Variable      "Multiplication"
+                Value         "1"
                 Show          off
               }
               Parameter {
@@ -8701,13 +8725,6 @@ Plecs {
               SrcComponent  "vdc"
               SrcTerminal   1
               DstComponent  "Gain1"
-              DstTerminal   1
-            }
-            Connection {
-              Type          Signal
-              SrcComponent  "vr*_dq"
-              SrcTerminal   1
-              DstComponent  "RRF->3ph"
               DstTerminal   1
             }
             Connection {
@@ -8880,7 +8897,7 @@ Plecs {
               Branch {
                 Points        [105, 235; 105, 275]
                 Branch {
-                  Points        [105, 360]
+                  Points        [105, 355]
                   DstComponent  "Abs"
                   DstTerminal   1
                 }
@@ -8906,7 +8923,6 @@ Plecs {
               Type          Signal
               SrcComponent  "Relational\nOperator"
               SrcTerminal   3
-              Points        [360, 365]
               DstComponent  "Switch1"
               DstTerminal   4
             }
@@ -8914,7 +8930,7 @@ Plecs {
               Type          Signal
               SrcComponent  "c2"
               SrcTerminal   1
-              Points        [315, 380; 315, 395]
+              Points        [315, 380; 315, 385]
               DstComponent  "Switch1"
               DstTerminal   2
             }
@@ -8937,7 +8953,7 @@ Plecs {
               Type          Signal
               SrcComponent  "Switch1"
               SrcTerminal   1
-              Points        [440, 400]
+              Points        [440, 390]
               DstComponent  "Product4"
               DstTerminal   3
             }
@@ -8945,7 +8961,7 @@ Plecs {
               Type          Signal
               SrcComponent  "Product5"
               SrcTerminal   1
-              Points        [310, 430; 310, 405]
+              Points        [310, 425; 310, 395]
               DstComponent  "Switch1"
               DstTerminal   3
             }
@@ -8953,13 +8969,13 @@ Plecs {
               Type          Signal
               SrcComponent  "Abs"
               SrcTerminal   2
-              Points        [180, 360]
+              Points        [180, 355]
               Branch {
                 DstComponent  "Relational\nOperator"
                 DstTerminal   1
               }
               Branch {
-                Points        [180, 425]
+                Points        [180, 420]
                 DstComponent  "Product5"
                 DstTerminal   2
               }
@@ -8968,16 +8984,16 @@ Plecs {
               Type          Signal
               SrcComponent  "cripple"
               SrcTerminal   1
-              Points        [175, 410]
+              Points        [170, 410]
               Branch {
-                Points        [175, 370]
+                Points        [190, 410; 190, 365]
                 DstComponent  "Relational\nOperator"
                 DstTerminal   2
               }
               Branch {
-                Points        [175, 435]
-                DstComponent  "Product5"
-                DstTerminal   3
+                Points        [170, 440]
+                DstComponent  "Gain2"
+                DstTerminal   1
               }
             }
             Connection {
@@ -9015,6 +9031,29 @@ Plecs {
                 Points        [155, 255; 400, 255]
                 DstComponent  "Product3"
                 DstTerminal   2
+              }
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "Gain2"
+              SrcTerminal   2
+              Points        [240, 440; 240, 430]
+              DstComponent  "Product5"
+              DstTerminal   3
+            }
+            Connection {
+              Type          Signal
+              SrcComponent  "vr*_dq"
+              SrcTerminal   1
+              Points        [45, 30]
+              Branch {
+                DstComponent  "RRF->3ph"
+                DstTerminal   1
+              }
+              Branch {
+                Points        [45, 5; 560, 5; 560, 240]
+                DstComponent  "Scope"
+                DstTerminal   5
               }
             }
             Annotation {
@@ -13517,18 +13556,18 @@ Plecs {
           Direction     up
           Flipped       off
           LabelPosition south
-          Location      [961, 31; 1919, 1030]
+          Location      [961, 31; 1919, 1040]
           State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADzPwCAAAAA/sAAAAQAFoAb"
 "wBvAG0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAA"
 "AA/////wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA8wAAABmAP///wAAAAMAAAQ4AAA"
-"A5fwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAABDgAAABQAP///wAAA74AAAPM"
+"A5fwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAABDgAAABQAP///wAAA74AAAPW"
 "AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AA"
 "AAAAAAAAA=="
           SavedViews    "AAAAAgAAAAA="
           HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJA"
-"AAABQAAAGQAAAAGAAAAZAAAAAcAAABkAAAACAAAAGQAAAAJAAAAZAAAAAEAAABkAAAAAgAAAGQAAA"
-"ADAAAAZAAAAAQAAABkAAAAqAAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
-"EAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAA"
+"AAABQAAAGQAAAACAAAAZAAAAAMAAABkAAAAAQAAAGQAAAAIAAAAZAAAAAkAAABkAAAABgAAAGQAAA"
+"AHAAAAZAAAAAQAAABkAAAA1AAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
+"wAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAA"
 "AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAA"
 "AAAAAAkAAAAAQAAAAAAAAPoAAAAACQ="
           PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -15440,3 +15479,4 @@ Plecs {
     } 
   }
 }
+DemoSignature "L4g7lAvhwOzTFp+1N72xhWm8+Fot2uRH9UVylPDwQ2A="
