@@ -86,20 +86,20 @@ Plecs {
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [961, 31; 1919, 1021]
+      Location      [961, 31; 1919, 1031]
       State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADQvwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
 "///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA0IAAABmAP///wAAAAMAAAO+AAAAffw"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAA74AAAPDAAAA"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAA74AAAPNAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAB"
-"wAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAAADAAAAZAAAAAEAAABkAAAACAAAAGQAAAAJAA"
-"AAZAAAAAYAAABkAAADrQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAADjAAA"
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAC"
+"AAAAGQAAAAJAAAAZAAAAAQAAABkAAAABQAAAGQAAAAGAAAAZAAAAAcAAABkAAAAAQAAAGQAAAACAA"
+"AAZAAAAAMAAABkAAABBwAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAADjAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
-"ALKAAAAAQAAAAAAAAPoAAAAACQ="
+"AAkAAAAAQAAAAAAAAPoAAAAACQ="
       PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA"
 "AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 "AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -449,17 +449,17 @@ Plecs {
           Direction     up
           Flipped       off
           LabelPosition south
-          Location      [961, 31; 1919, 1059]
+          Location      [961, 31; 1919, 1069]
           State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADwfwCAAAAA/sAAAAQAFoAb"
 "wBvAG0AQQByAGUAYQAAAAAA/////wAAAIQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwIAAA"
 "OuAAABzgAAAMgAAAB4+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA8EAAABmAP///wAAAAMAAAAAAAA"
-"AAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74AAAPp"
+"AAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74AAAPz"
 "AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AA"
 "AAAAAAAAA=="
           SavedViews    "AAAAAgAAAAA="
           HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJA"
-"AAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAAADAAAAZAAAAAEAAABkAAAACAAAAGQAAA"
-"AJAAAAZAAAAAYAAABkAAAAvAAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
+"AAACAAAAGQAAAAJAAAAZAAAAAQAAABkAAAABQAAAGQAAAAGAAAAZAAAAAcAAABkAAAAAQAAAGQAAA"
+"ACAAAAZAAAAAMAAABkAAAAvAAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
 "YAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAA"
 "AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAA"
 "AAAAAAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -4122,17 +4122,17 @@ Plecs {
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [961, 31; 1919, 1021]
-      State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADw/wCAAAAA/sAAAAQAFoAbwBvA"
+      Location      [961, 31; 1919, 1031]
+      State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADzfwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
-"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMBAAAALwAAA8MAAABmAP///wAAAAMAAAO+AAAA5fw"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAAwYAAAPDAAAA"
+"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMBAAAALwAAA80AAABmAP///wAAAAMAAAO+AAAA5fw"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAAA74AAABQAP///wAAAwYAAAPNAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAB"
-"wAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAAADAAAAZAAAAAEAAABkAAAACAAAAGQAAAAJAA"
-"AAZAAAAAYAAABkAAAAhgAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAABiAAA"
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAC"
+"AAAAGQAAAAJAAAAZAAAAAQAAABkAAAABQAAAGQAAAAGAAAAZAAAAAcAAABkAAAAAQAAAGQAAAACAA"
+"AAZAAAAAMAAABkAAAAhgAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAABiAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
 "AAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -8220,17 +8220,17 @@ Plecs {
               Direction     up
               Flipped       off
               LabelPosition south
-              Location      [961, 31; 1919, 1041]
+              Location      [961, 31; 1919, 1051]
               State         "AAAA/wAAAAD9AAAAAgAAAAEAAAAAAAAAAPwCAAAAA/sAAAAQA"
 "FoAbwBvAG0AQQByAGUAYQAAAAAA/////wAAANQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcw"
 "AAAAAA/////wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAAAP////8AAABmAP///wAAAAMAAAA"
 "AAAAAAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74A"
-"AAPXAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP///"
+"AAPhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP///"
 "/8AAAAAAAAAAA=="
               SavedViews    "AAAAAgAAAAA="
               HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAA"
-"AAJAAAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAAADAAAAZAAAAAEAAABkAAAACAAAAG"
-"QAAAAJAAAAZAAAAAYAAABkAAAApwAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAs"
+"AAJAAAACAAAAGQAAAAJAAAAZAAAAAQAAABkAAAABQAAAGQAAAAGAAAAZAAAAAcAAABkAAAAAQAAAG"
+"QAAAACAAAAZAAAAAMAAABkAAAApwAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAs"
 "AAACDAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAA"
 "AAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA"
 "QAAAAAAAAAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -8730,6 +8730,3050 @@ Plecs {
                 Variable      "DataType"
                 Value         "10"
                 Show          off
+              }
+            }
+            Component {
+              Type          Subsystem
+              Name          "ML-CDSVM"
+              Show          on
+              Position      [565, 375]
+              Direction     up
+              Flipped       off
+              LabelPosition south
+              Frame         [-25, -20; 25, 20]
+              SampleTime    "-1"
+              CodeGenDiscretizationMethod "2"
+              CodeGenTarget "Generic"
+              MaskDisplayLang "2"
+              MaskIconFrame on
+              MaskIconOpaque off
+              MaskIconRotates on
+              Terminal {
+                Type          Input
+                Position      [-25, -10]
+                Direction     left
+              }
+              Terminal {
+                Type          Output
+                Position      [29, 0]
+                Direction     right
+              }
+              Schematic {
+                Location      [394, 336; 1244, 548]
+                ZoomFactor    1
+                SliderPosition [0, 0]
+                ShowBrowser   off
+                BrowserWidth  100
+                Component {
+                  Type          Input
+                  Name          "in_abc"
+                  Show          on
+                  Position      [35, 105]
+                  Direction     left
+                  Flipped       on
+                  LabelPosition north
+                  Parameter {
+                    Variable      "Index"
+                    Value         "1"
+                    Show          on
+                  }
+                  Parameter {
+                    Variable      "Width"
+                    Value         "-1"
+                    Show          off
+                  }
+                }
+                Component {
+                  Type          Output
+                  Name          "out"
+                  Show          on
+                  Position      [790, 65]
+                  Direction     right
+                  Flipped       off
+                  LabelPosition south
+                  Parameter {
+                    Variable      "Index"
+                    Value         "2"
+                    Show          on
+                  }
+                  Parameter {
+                    Variable      "Width"
+                    Value         "-1"
+                    Show          off
+                  }
+                }
+                Component {
+                  Type          Subsystem
+                  Name          "cm1 injection1"
+                  Show          on
+                  Position      [240, 110]
+                  Direction     up
+                  Flipped       off
+                  LabelPosition south
+                  Frame         [-45, -25; 45, 25]
+                  SampleTime    "-1"
+                  CodeGenDiscretizationMethod "2"
+                  CodeGenTarget "Generic"
+                  MaskDisplayLang "2"
+                  MaskIconFrame on
+                  MaskIconOpaque off
+                  MaskIconRotates on
+                  Terminal {
+                    Type          Input
+                    Position      [-45, -5]
+                    Direction     left
+                  }
+                  Terminal {
+                    Type          Output
+                    Position      [49, -5]
+                    Direction     right
+                  }
+                  Terminal {
+                    Type          Input
+                    Position      [-45, 10]
+                    Direction     left
+                  }
+                  Schematic {
+                    Location      [642, 27; 1920, 1348]
+                    ZoomFactor    1
+                    SliderPosition [0, 0]
+                    ShowBrowser   off
+                    BrowserWidth  100
+                    Component {
+                      Type          MinMax
+                      Name          "Min/Max"
+                      Show          on
+                      Position      [135, 115]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Operation"
+                        Value         "2"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "3"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          MinMax
+                      Name          "Min/Max1"
+                      Show          on
+                      Position      [135, 230]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Operation"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "3"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Sum
+                      Name          "Sum1"
+                      Show          off
+                      Position      [385, 120]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "+++"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Gain
+                      Name          "gain_cm"
+                      Show          on
+                      Position      [445, 120]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "K"
+                        Value         "-1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Multiplication"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Product
+                      Name          "Product"
+                      Show          off
+                      Position      [260, 110]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "**"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Constant
+                      Name          "Constant2"
+                      Show          on
+                      Position      [145, 165]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-25, -10; 25, 10]
+                      Parameter {
+                        Variable      "Value"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Sum
+                      Name          "Sum3"
+                      Show          off
+                      Position      [210, 170]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "+-"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          SignalDemux
+                      Name          "Demux"
+                      Show          off
+                      Position      [70, 115]
+                      Direction     right
+                      Flipped       on
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Width"
+                        Value         "3"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Product
+                      Name          "Product2"
+                      Show          off
+                      Position      [265, 225]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "**"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Gain
+                      Name          "Gain5"
+                      Show          on
+                      Position      [235, 330]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "K"
+                        Value         "2"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Multiplication"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Sum
+                      Name          "Sum6"
+                      Show          off
+                      Position      [285, 280]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "+-"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Constant
+                      Name          "Constant5"
+                      Show          on
+                      Position      [220, 275]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-25, -10; 25, 10]
+                      Parameter {
+                        Variable      "Value"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Input
+                      Name          "in_abc"
+                      Show          on
+                      Position      [25, 115]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "1"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Output
+                      Name          "out_cm"
+                      Show          on
+                      Position      [500, 120]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "2"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Input
+                      Name          "cm_value"
+                      Show          on
+                      Position      [125, 330]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "3"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Gain
+                      Name          "gain_cm1"
+                      Show          on
+                      Position      [330, 280]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "K"
+                        Value         "0.5"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Multiplication"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Min/Max"
+                      SrcTerminal   1
+                      DstComponent  "Product"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Min/Max1"
+                      SrcTerminal   1
+                      DstComponent  "Product2"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Sum1"
+                      SrcTerminal   1
+                      DstComponent  "gain_cm"
+                      DstTerminal   1
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Product"
+                      SrcTerminal   1
+                      DstComponent  "Sum1"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Product2"
+                      SrcTerminal   1
+                      Points        [295, 225; 295, 120]
+                      DstComponent  "Sum1"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Constant2"
+                      SrcTerminal   1
+                      DstComponent  "Sum3"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Sum3"
+                      SrcTerminal   1
+                      Points        [235, 170]
+                      DstComponent  "Product2"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Demux"
+                      SrcTerminal   2
+                      Points        [90, 105]
+                      Branch {
+                        DstComponent  "Min/Max"
+                        DstTerminal   2
+                      }
+                      Branch {
+                        Points        [90, 220]
+                        DstComponent  "Min/Max1"
+                        DstTerminal   2
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Demux"
+                      SrcTerminal   3
+                      Points        [85, 115; 85, 140; 95, 140]
+                      Branch {
+                        Points        [95, 230]
+                        DstComponent  "Min/Max1"
+                        DstTerminal   3
+                      }
+                      Branch {
+                        Points        [95, 115]
+                        DstComponent  "Min/Max"
+                        DstTerminal   3
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Demux"
+                      SrcTerminal   4
+                      Points        [80, 125; 80, 195; 100, 195]
+                      Branch {
+                        Points        [100, 125]
+                        DstComponent  "Min/Max"
+                        DstTerminal   4
+                      }
+                      Branch {
+                        Points        [100, 240]
+                        DstComponent  "Min/Max1"
+                        DstTerminal   4
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Gain5"
+                      SrcTerminal   2
+                      DstComponent  "Sum6"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Constant5"
+                      SrcTerminal   1
+                      DstComponent  "Sum6"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "in_abc"
+                      SrcTerminal   1
+                      DstComponent  "Demux"
+                      DstTerminal   1
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "gain_cm"
+                      SrcTerminal   2
+                      DstComponent  "out_cm"
+                      DstTerminal   1
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "cm_value"
+                      SrcTerminal   1
+                      Points        [180, 330]
+                      Branch {
+                        Points        [180, 175]
+                        Branch {
+                          Points        [180, 105]
+                          DstComponent  "Product"
+                          DstTerminal   2
+                        }
+                        Branch {
+                          DstComponent  "Sum3"
+                          DstTerminal   3
+                        }
+                      }
+                      Branch {
+                        DstComponent  "Gain5"
+                        DstTerminal   1
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Sum6"
+                      SrcTerminal   1
+                      DstComponent  "gain_cm1"
+                      DstTerminal   1
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "gain_cm1"
+                      SrcTerminal   2
+                      Points        [350, 130]
+                      DstComponent  "Sum1"
+                      DstTerminal   4
+                    }
+                  }
+                }
+                Component {
+                  Type          Subsystem
+                  Name          "ML modulo"
+                  Show          on
+                  Position      [470, 110]
+                  Direction     up
+                  Flipped       off
+                  LabelPosition south
+                  Frame         [-50, -25; 50, 25]
+                  SampleTime    "-1"
+                  CodeGenDiscretizationMethod "2"
+                  CodeGenTarget "Generic"
+                  MaskDisplayLang "2"
+                  MaskIconFrame on
+                  MaskIconOpaque off
+                  MaskIconRotates on
+                  Terminal {
+                    Type          Output
+                    Position      [54, -5]
+                    Direction     right
+                  }
+                  Terminal {
+                    Type          Input
+                    Position      [-50, 20]
+                    Direction     left
+                  }
+                  Terminal {
+                    Type          Input
+                    Position      [-50, -5]
+                    Direction     left
+                  }
+                  Terminal {
+                    Type          Input
+                    Position      [-50, -15]
+                    Direction     left
+                  }
+                  Schematic {
+                    Location      [1089, 586; 1538, 881]
+                    ZoomFactor    1
+                    SliderPosition [0, 0]
+                    ShowBrowser   off
+                    BrowserWidth  100
+                    Component {
+                      Type          Sum
+                      Name          "Sum1"
+                      Show          off
+                      Position      [200, 75]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "+++"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Constant
+                      Name          "vdc"
+                      Show          on
+                      Position      [105, 85]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-10, -10; 10, 10]
+                      Parameter {
+                        Variable      "Value"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Math
+                      Name          "Math"
+                      Show          on
+                      Position      [280, 80]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Operator"
+                        Value         "6"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Sum
+                      Name          "Sum2"
+                      Show          off
+                      Position      [145, 180]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "2"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "|+-"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Constant
+                      Name          "const"
+                      Show          on
+                      Position      [105, 220]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-10, -10; 10, 10]
+                      Parameter {
+                        Variable      "Value"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Product
+                      Name          "Divide"
+                      Show          off
+                      Position      [195, 145]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "*/"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Constant
+                      Name          "const1"
+                      Show          on
+                      Position      [105, 140]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-10, -10; 10, 10]
+                      Parameter {
+                        Variable      "Value"
+                        Value         "2"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Sum
+                      Name          "Sum3"
+                      Show          off
+                      Position      [330, 80]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "2"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "|+-"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Gain
+                      Name          "Gain"
+                      Show          on
+                      Position      [285, 145]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "K"
+                        Value         "0.5"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Multiplication"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Output
+                      Name          "out_abcmod"
+                      Show          on
+                      Position      [385, 80]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "1"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Input
+                      Name          "level"
+                      Show          on
+                      Position      [25, 180]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "2"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Input
+                      Name          "in_cm1"
+                      Show          on
+                      Position      [25, 45]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "3"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Input
+                      Name          "in_abc"
+                      Show          on
+                      Position      [25, 25]
+                      Direction     left
+                      Flipped       on
+                      LabelPosition north
+                      Parameter {
+                        Variable      "Index"
+                        Value         "4"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Sum1"
+                      SrcTerminal   1
+                      DstComponent  "Math"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "vdc"
+                      SrcTerminal   1
+                      DstComponent  "Sum1"
+                      DstTerminal   4
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Math"
+                      SrcTerminal   1
+                      DstComponent  "Sum3"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Sum2"
+                      SrcTerminal   1
+                      Points        [165, 180]
+                      DstComponent  "Divide"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "const"
+                      SrcTerminal   1
+                      Points        [145, 220]
+                      DstComponent  "Sum2"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Divide"
+                      SrcTerminal   1
+                      Points        [235, 145]
+                      Branch {
+                        Points        [235, 85]
+                        DstComponent  "Math"
+                        DstTerminal   3
+                      }
+                      Branch {
+                        DstComponent  "Gain"
+                        DstTerminal   1
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "const1"
+                      SrcTerminal   1
+                      DstComponent  "Divide"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Gain"
+                      SrcTerminal   2
+                      Points        [330, 145]
+                      DstComponent  "Sum3"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Sum3"
+                      SrcTerminal   1
+                      DstComponent  "out_abcmod"
+                      DstTerminal   1
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "level"
+                      SrcTerminal   1
+                      DstComponent  "Sum2"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "in_abc"
+                      SrcTerminal   1
+                      Points        [165, 25; 165, 65]
+                      DstComponent  "Sum1"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "in_cm1"
+                      SrcTerminal   1
+                      Points        [160, 45; 160, 75]
+                      DstComponent  "Sum1"
+                      DstTerminal   3
+                    }
+                  }
+                }
+                Component {
+                  Type          Constant
+                  Name          "Level"
+                  Show          on
+                  Position      [340, 130]
+                  Direction     right
+                  Flipped       off
+                  LabelPosition south
+                  Frame         [-40, -10; 40, 10]
+                  Parameter {
+                    Variable      "Value"
+                    Value         "LVL_SVM"
+                    Show          off
+                  }
+                  Parameter {
+                    Variable      "DataType"
+                    Value         "10"
+                    Show          off
+                  }
+                }
+                Component {
+                  Type          Subsystem
+                  Name          "cmML injection"
+                  Show          on
+                  Position      [590, 110]
+                  Direction     up
+                  Flipped       off
+                  LabelPosition south
+                  Frame         [-45, -25; 45, 25]
+                  SampleTime    "-1"
+                  CodeGenDiscretizationMethod "2"
+                  CodeGenTarget "Generic"
+                  MaskDisplayLang "2"
+                  MaskIconFrame on
+                  MaskIconOpaque off
+                  MaskIconRotates on
+                  Terminal {
+                    Type          Input
+                    Position      [-45, -5]
+                    Direction     left
+                  }
+                  Terminal {
+                    Type          Output
+                    Position      [49, -5]
+                    Direction     right
+                  }
+                  Terminal {
+                    Type          Input
+                    Position      [-45, 10]
+                    Direction     left
+                  }
+                  Schematic {
+                    Location      [640, 280; 1186, 689]
+                    ZoomFactor    1
+                    SliderPosition [0, 0]
+                    ShowBrowser   off
+                    BrowserWidth  100
+                    Component {
+                      Type          MinMax
+                      Name          "Min/Max"
+                      Show          on
+                      Position      [135, 115]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Operation"
+                        Value         "2"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "3"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          MinMax
+                      Name          "Min/Max1"
+                      Show          on
+                      Position      [135, 230]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Operation"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "3"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Sum
+                      Name          "Sum1"
+                      Show          off
+                      Position      [385, 120]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "+++"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Gain
+                      Name          "gain_cm"
+                      Show          on
+                      Position      [445, 120]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "K"
+                        Value         "-1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Multiplication"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Product
+                      Name          "Product"
+                      Show          off
+                      Position      [260, 110]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "**"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Constant
+                      Name          "Constant2"
+                      Show          on
+                      Position      [145, 165]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-25, -10; 25, 10]
+                      Parameter {
+                        Variable      "Value"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Sum
+                      Name          "Sum3"
+                      Show          off
+                      Position      [210, 170]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "+-"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          SignalDemux
+                      Name          "Demux"
+                      Show          off
+                      Position      [70, 115]
+                      Direction     right
+                      Flipped       on
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Width"
+                        Value         "3"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Product
+                      Name          "Product2"
+                      Show          off
+                      Position      [265, 225]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "**"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Gain
+                      Name          "Gain5"
+                      Show          on
+                      Position      [235, 330]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "K"
+                        Value         "2"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Multiplication"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Sum
+                      Name          "Sum6"
+                      Show          off
+                      Position      [285, 280]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "IconShape"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "+-"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Constant
+                      Name          "Constant5"
+                      Show          on
+                      Position      [220, 275]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-25, -10; 25, 10]
+                      Parameter {
+                        Variable      "Value"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Input
+                      Name          "in_abc"
+                      Show          on
+                      Position      [25, 115]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "1"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Output
+                      Name          "out_cm"
+                      Show          on
+                      Position      [500, 120]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "2"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Input
+                      Name          "cm_value"
+                      Show          on
+                      Position      [125, 330]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "3"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Gain
+                      Name          "gain_cm1"
+                      Show          on
+                      Position      [330, 280]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "K"
+                        Value         "0.5"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Multiplication"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Min/Max"
+                      SrcTerminal   1
+                      DstComponent  "Product"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Min/Max1"
+                      SrcTerminal   1
+                      DstComponent  "Product2"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Sum1"
+                      SrcTerminal   1
+                      DstComponent  "gain_cm"
+                      DstTerminal   1
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Product"
+                      SrcTerminal   1
+                      DstComponent  "Sum1"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Product2"
+                      SrcTerminal   1
+                      Points        [295, 225; 295, 120]
+                      DstComponent  "Sum1"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Constant2"
+                      SrcTerminal   1
+                      DstComponent  "Sum3"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Sum3"
+                      SrcTerminal   1
+                      Points        [235, 170]
+                      DstComponent  "Product2"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Demux"
+                      SrcTerminal   2
+                      Points        [90, 105]
+                      Branch {
+                        DstComponent  "Min/Max"
+                        DstTerminal   2
+                      }
+                      Branch {
+                        Points        [90, 220]
+                        DstComponent  "Min/Max1"
+                        DstTerminal   2
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Demux"
+                      SrcTerminal   3
+                      Points        [85, 115; 85, 140; 95, 140]
+                      Branch {
+                        Points        [95, 230]
+                        DstComponent  "Min/Max1"
+                        DstTerminal   3
+                      }
+                      Branch {
+                        Points        [95, 115]
+                        DstComponent  "Min/Max"
+                        DstTerminal   3
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Demux"
+                      SrcTerminal   4
+                      Points        [80, 125; 80, 195; 100, 195]
+                      Branch {
+                        Points        [100, 125]
+                        DstComponent  "Min/Max"
+                        DstTerminal   4
+                      }
+                      Branch {
+                        Points        [100, 240]
+                        DstComponent  "Min/Max1"
+                        DstTerminal   4
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Gain5"
+                      SrcTerminal   2
+                      DstComponent  "Sum6"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Constant5"
+                      SrcTerminal   1
+                      DstComponent  "Sum6"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "in_abc"
+                      SrcTerminal   1
+                      DstComponent  "Demux"
+                      DstTerminal   1
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "gain_cm"
+                      SrcTerminal   2
+                      DstComponent  "out_cm"
+                      DstTerminal   1
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "cm_value"
+                      SrcTerminal   1
+                      Points        [180, 330]
+                      Branch {
+                        Points        [180, 175]
+                        Branch {
+                          Points        [180, 105]
+                          DstComponent  "Product"
+                          DstTerminal   2
+                        }
+                        Branch {
+                          DstComponent  "Sum3"
+                          DstTerminal   3
+                        }
+                      }
+                      Branch {
+                        DstComponent  "Gain5"
+                        DstTerminal   1
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Sum6"
+                      SrcTerminal   1
+                      DstComponent  "gain_cm1"
+                      DstTerminal   1
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "gain_cm1"
+                      SrcTerminal   2
+                      Points        [350, 130]
+                      DstComponent  "Sum1"
+                      DstTerminal   4
+                    }
+                  }
+                }
+                Component {
+                  Type          Sum
+                  Name          "Sum8"
+                  Show          off
+                  Position      [575, 55]
+                  Direction     up
+                  Flipped       off
+                  LabelPosition south
+                  Parameter {
+                    Variable      "IconShape"
+                    Value         "1"
+                    Show          off
+                  }
+                  Parameter {
+                    Variable      "Inputs"
+                    Value         "++"
+                    Show          off
+                  }
+                  Parameter {
+                    Variable      "DataType"
+                    Value         "10"
+                    Show          off
+                  }
+                }
+                Component {
+                  Type          SignalSwitch
+                  Name          "Switch1"
+                  Show          on
+                  Position      [730, 65]
+                  Direction     right
+                  Flipped       off
+                  LabelPosition south
+                  Parameter {
+                    Variable      "Criteria"
+                    Value         "2"
+                    Show          on
+                  }
+                  Parameter {
+                    Variable      "Threshold"
+                    Value         "2"
+                    Show          on
+                  }
+                }
+                Component {
+                  Type          Sum
+                  Name          "Sum9"
+                  Show          off
+                  Position      [680, 60]
+                  Direction     up
+                  Flipped       off
+                  LabelPosition south
+                  Parameter {
+                    Variable      "IconShape"
+                    Value         "1"
+                    Show          off
+                  }
+                  Parameter {
+                    Variable      "Inputs"
+                    Value         "++"
+                    Show          off
+                  }
+                  Parameter {
+                    Variable      "DataType"
+                    Value         "10"
+                    Show          off
+                  }
+                }
+                Component {
+                  Type          Goto
+                  Name          "Goto"
+                  Show          off
+                  Position      [95, 30]
+                  Direction     right
+                  Flipped       off
+                  LabelPosition south
+                  Parameter {
+                    Variable      "Tag"
+                    Value         "u1_abc"
+                    Show          off
+                  }
+                  Parameter {
+                    Variable      "Visibility"
+                    Value         "1"
+                    Show          off
+                  }
+                }
+                Component {
+                  Type          Goto
+                  Name          "Goto1"
+                  Show          off
+                  Position      [780, 40]
+                  Direction     right
+                  Flipped       off
+                  LabelPosition south
+                  Parameter {
+                    Variable      "Tag"
+                    Value         "ucm_abc"
+                    Show          off
+                  }
+                  Parameter {
+                    Variable      "Visibility"
+                    Value         "1"
+                    Show          off
+                  }
+                }
+                Component {
+                  Type          Goto
+                  Name          "Goto2"
+                  Show          off
+                  Position      [515, 180]
+                  Direction     right
+                  Flipped       off
+                  LabelPosition south
+                  Parameter {
+                    Variable      "Tag"
+                    Value         "jcm_ML"
+                    Show          off
+                  }
+                  Parameter {
+                    Variable      "Visibility"
+                    Value         "1"
+                    Show          off
+                  }
+                }
+                Component {
+                  Type          Subsystem
+                  Name          "cm gain generator1"
+                  Show          on
+                  Position      [120, 125]
+                  Direction     up
+                  Flipped       off
+                  LabelPosition south
+                  Frame         [-45, -15; 45, 15]
+                  SampleTime    "-1"
+                  CodeGenDiscretizationMethod "2"
+                  CodeGenTarget "Generic"
+                  MaskDisplayLang "2"
+                  MaskIconFrame on
+                  MaskIconOpaque off
+                  MaskIconRotates on
+                  Terminal {
+                    Type          Output
+                    Position      [49, -5]
+                    Direction     right
+                  }
+                  Terminal {
+                    Type          Output
+                    Position      [49, 5]
+                    Direction     right
+                  }
+                  Terminal {
+                    Type          Input
+                    Position      [-45, 0]
+                    Direction     left
+                  }
+                  Schematic {
+                    Location      [741, 683; 1278, 1062]
+                    ZoomFactor    1
+                    SliderPosition [0, 0]
+                    ShowBrowser   off
+                    BrowserWidth  100
+                    Component {
+                      Type          Subsystem
+                      Name          "alpha cm variable"
+                      Show          on
+                      Position      [220, 195]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-40, -15; 40, 15]
+                      SampleTime    "-1"
+                      CodeGenDiscretizationMethod "2"
+                      CodeGenTarget "Generic"
+                      MaskDisplayLang "2"
+                      MaskIconFrame on
+                      MaskIconOpaque off
+                      MaskIconRotates on
+                      Terminal {
+                        Type          Output
+                        Position      [44, -5]
+                        Direction     right
+                      }
+                      Terminal {
+                        Type          Input
+                        Position      [-40, -5]
+                        Direction     left
+                      }
+                      Schematic {
+                        Location      [220, 220; 1233, 726]
+                        ZoomFactor    1
+                        SliderPosition [0, 0]
+                        ShowBrowser   off
+                        BrowserWidth  100
+                        Component {
+                          Type          Output
+                          Name          "out"
+                          Show          on
+                          Position      [925, 265]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "Index"
+                            Value         "1"
+                            Show          on
+                          }
+                          Parameter {
+                            Variable      "Width"
+                            Value         "-1"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Constant
+                          Name          "Constant4"
+                          Show          on
+                          Position      [295, 160]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Frame         [-25, -10; 25, 10]
+                          Parameter {
+                            Variable      "Value"
+                            Value         "2*pi/3"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Reference
+                          SrcComponent  "Components/Control/Transformations/3p"
+"h->SRF"
+                          Name          "3ph->SRF"
+                          Show          on
+                          Position      [110, 70]
+                          Direction     up
+                          Flipped       off
+                          LabelPosition south
+                          Frame         [-15, -15; 15, 15]
+                          Terminal {
+                            Type          Input
+                            Position      [-15, 0]
+                            Direction     left
+                          }
+                          Terminal {
+                            Type          Output
+                            Position      [19, 0]
+                            Direction     right
+                          }
+                        }
+                        Component {
+                          Type          Input
+                          Name          "in_abc"
+                          Show          on
+                          Position      [35, 70]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "Index"
+                            Value         "2"
+                            Show          on
+                          }
+                          Parameter {
+                            Variable      "Width"
+                            Value         "-1"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Trigonometry
+                          Name          "Trigonometric\nFunction"
+                          Show          on
+                          Position      [240, 70]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "Operator"
+                            Value         "7"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Unit"
+                            Value         "1"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          SignalDemux
+                          Name          "Demux"
+                          Show          off
+                          Position      [200, 70]
+                          Direction     right
+                          Flipped       on
+                          LabelPosition south
+                          Parameter {
+                            Variable      "Width"
+                            Value         "2"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Math
+                          Name          "Math"
+                          Show          on
+                          Position      [395, 80]
+                          Direction     up
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "Operator"
+                            Value         "6"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Sum
+                          Name          "Sum6"
+                          Show          off
+                          Position      [340, 75]
+                          Direction     up
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "IconShape"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Inputs"
+                            Value         "+-"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Constant
+                          Name          "Constant5"
+                          Show          on
+                          Position      [80, 120]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Frame         [-25, -10; 25, 10]
+                          Parameter {
+                            Variable      "Value"
+                            Value         "pi/6"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          SignalSelector
+                          Name          "Selector"
+                          Show          off
+                          Position      [160, 70]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "InputWidth"
+                            Value         "2"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "OutputIndices"
+                            Value         "[2 1]"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          RelationalOperator
+                          Name          "Relational\nOperator"
+                          Show          on
+                          Position      [555, 85]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "Operator"
+                            Value         "3"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Gain
+                          Name          "Gain"
+                          Show          on
+                          Position      [445, 80]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "K"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Multiplication"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Sum
+                          Name          "Sum7"
+                          Show          off
+                          Position      [285, 125]
+                          Direction     up
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "IconShape"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Inputs"
+                            Value         "+-"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Constant
+                          Name          "Constant7"
+                          Show          on
+                          Position      [80, 160]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Frame         [-40, -10; 40, 10]
+                          Parameter {
+                            Variable      "Value"
+                            Value         "theta_DSVM"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Constant
+                          Name          "Constant6"
+                          Show          on
+                          Position      [400, 165]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Frame         [-25, -10; 25, 10]
+                          Parameter {
+                            Variable      "Value"
+                            Value         "2*pi/3"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          SignalSwitch
+                          Name          "Switch1"
+                          Show          on
+                          Position      [630, 140]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "Criteria"
+                            Value         "2"
+                            Show          on
+                          }
+                          Parameter {
+                            Variable      "Threshold"
+                            Value         "0"
+                            Show          on
+                          }
+                        }
+                        Component {
+                          Type          Gain
+                          Name          "Gain1"
+                          Show          on
+                          Position      [465, 165]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "K"
+                            Value         "0.5"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Multiplication"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Sum
+                          Name          "Sum8"
+                          Show          off
+                          Position      [550, 190]
+                          Direction     up
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "IconShape"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Inputs"
+                            Value         "+-"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          RelationalOperator
+                          Name          "Relational\nOperator1"
+                          Show          on
+                          Position      [745, 240]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "Operator"
+                            Value         "3"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Gain
+                          Name          "Gain2"
+                          Show          on
+                          Position      [685, 140]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "K"
+                            Value         "2"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Multiplication"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          RelationalOperator
+                          Name          "Relational\nOperator2"
+                          Show          on
+                          Position      [750, 310]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "Operator"
+                            Value         "3"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Constant
+                          Name          "Constant8"
+                          Show          on
+                          Position      [565, 310]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Frame         [-25, -10; 25, 10]
+                          Parameter {
+                            Variable      "Value"
+                            Value         "pi/3"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Constant
+                          Name          "Constant9"
+                          Show          on
+                          Position      [570, 225]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Frame         [-25, -10; 25, 10]
+                          Parameter {
+                            Variable      "Value"
+                            Value         "2*pi/3"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Sum
+                          Name          "Sum9"
+                          Show          off
+                          Position      [690, 230]
+                          Direction     up
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "IconShape"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Inputs"
+                            Value         "+-"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Sum
+                          Name          "Sum10"
+                          Show          off
+                          Position      [825, 265]
+                          Direction     up
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "IconShape"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Inputs"
+                            Value         "++"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Gain
+                          Name          "Gain3"
+                          Show          on
+                          Position      [870, 265]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "K"
+                            Value         "0.5"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Multiplication"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Sum
+                          Name          "Sum11"
+                          Show          off
+                          Position      [635, 315]
+                          Direction     up
+                          Flipped       off
+                          LabelPosition south
+                          Parameter {
+                            Variable      "IconShape"
+                            Value         "1"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "Inputs"
+                            Value         "+-"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Component {
+                          Type          Constant
+                          Name          "Constant10"
+                          Show          on
+                          Position      [525, 365]
+                          Direction     right
+                          Flipped       off
+                          LabelPosition south
+                          Frame         [-40, -10; 40, 10]
+                          Parameter {
+                            Variable      "Value"
+                            Value         "theta2_DSVM"
+                            Show          off
+                          }
+                          Parameter {
+                            Variable      "DataType"
+                            Value         "10"
+                            Show          off
+                          }
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Selector"
+                          SrcTerminal   2
+                          DstComponent  "Demux"
+                          DstTerminal   1
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "3ph->SRF"
+                          SrcTerminal   2
+                          DstComponent  "Selector"
+                          DstTerminal   1
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Demux"
+                          SrcTerminal   2
+                          DstComponent  "Trigonometric\nFunction"
+                          DstTerminal   1
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Demux"
+                          SrcTerminal   3
+                          DstComponent  "Trigonometric\nFunction"
+                          DstTerminal   3
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Constant5"
+                          SrcTerminal   1
+                          DstComponent  "Sum7"
+                          DstTerminal   2
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Sum7"
+                          SrcTerminal   1
+                          Points        [310, 125]
+                          DstComponent  "Sum6"
+                          DstTerminal   3
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Constant7"
+                          SrcTerminal   1
+                          Points        [245, 160; 245, 130]
+                          DstComponent  "Sum7"
+                          DstTerminal   3
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Constant4"
+                          SrcTerminal   1
+                          Points        [365, 160]
+                          DstComponent  "Math"
+                          DstTerminal   3
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Sum8"
+                          SrcTerminal   1
+                          Points        [600, 190]
+                          DstComponent  "Switch1"
+                          DstTerminal   3
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Relational\nOperator"
+                          SrcTerminal   3
+                          Points        [630, 85]
+                          DstComponent  "Switch1"
+                          DstTerminal   4
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Gain"
+                          SrcTerminal   2
+                          Points        [515, 80]
+                          Branch {
+                            DstComponent  "Relational\nOperator"
+                            DstTerminal   1
+                          }
+                          Branch {
+                            Points        [515, 135]
+                            Branch {
+                              DstComponent  "Switch1"
+                              DstTerminal   2
+                            }
+                            Branch {
+                              Points        [515, 195]
+                              DstComponent  "Sum8"
+                              DstTerminal   3
+                            }
+                          }
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Gain1"
+                          SrcTerminal   2
+                          Points        [495, 165; 495, 90]
+                          DstComponent  "Relational\nOperator"
+                          DstTerminal   2
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Constant6"
+                          SrcTerminal   1
+                          Points        [435, 165]
+                          Branch {
+                            DstComponent  "Gain1"
+                            DstTerminal   1
+                          }
+                          Branch {
+                            Points        [435, 205; 520, 205]
+                            DstComponent  "Sum8"
+                            DstTerminal   2
+                          }
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Switch1"
+                          SrcTerminal   1
+                          DstComponent  "Gain2"
+                          DstTerminal   1
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Constant9"
+                          SrcTerminal   1
+                          DstComponent  "Sum9"
+                          DstTerminal   2
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Sum9"
+                          SrcTerminal   1
+                          Points        [715, 230]
+                          DstComponent  "Relational\nOperator1"
+                          DstTerminal   2
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Sum10"
+                          SrcTerminal   1
+                          DstComponent  "Gain3"
+                          DstTerminal   1
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Constant8"
+                          SrcTerminal   1
+                          DstComponent  "Sum11"
+                          DstTerminal   2
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Sum11"
+                          SrcTerminal   1
+                          Points        [660, 315]
+                          Branch {
+                            DstComponent  "Sum9"
+                            DstTerminal   3
+                          }
+                          Branch {
+                            DstComponent  "Relational\nOperator2"
+                            DstTerminal   2
+                          }
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Trigonometric\nFunction"
+                          SrcTerminal   2
+                          DstComponent  "Sum6"
+                          DstTerminal   2
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Sum6"
+                          SrcTerminal   1
+                          DstComponent  "Math"
+                          DstTerminal   2
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Math"
+                          SrcTerminal   1
+                          DstComponent  "Gain"
+                          DstTerminal   1
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Gain2"
+                          SrcTerminal   2
+                          Points        [715, 140; 715, 235]
+                          Branch {
+                            DstComponent  "Relational\nOperator1"
+                            DstTerminal   1
+                          }
+                          Branch {
+                            Points        [715, 305]
+                            DstComponent  "Relational\nOperator2"
+                            DstTerminal   1
+                          }
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Relational\nOperator1"
+                          SrcTerminal   3
+                          Points        [780, 240; 780, 260]
+                          DstComponent  "Sum10"
+                          DstTerminal   2
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Relational\nOperator2"
+                          SrcTerminal   3
+                          Points        [785, 310; 785, 270]
+                          DstComponent  "Sum10"
+                          DstTerminal   3
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "in_abc"
+                          SrcTerminal   1
+                          DstComponent  "3ph->SRF"
+                          DstTerminal   1
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Constant10"
+                          SrcTerminal   1
+                          Points        [595, 365; 595, 320]
+                          DstComponent  "Sum11"
+                          DstTerminal   3
+                        }
+                        Connection {
+                          Type          Signal
+                          SrcComponent  "Gain3"
+                          SrcTerminal   2
+                          DstComponent  "out"
+                          DstTerminal   1
+                        }
+                      }
+                    }
+                    Component {
+                      Type          SignalSwitch
+                      Name          "Switch"
+                      Show          on
+                      Position      [325, 160]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Criteria"
+                        Value         "2"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Threshold"
+                        Value         "0"
+                        Show          on
+                      }
+                    }
+                    Component {
+                      Type          Constant
+                      Name          "kmod"
+                      Show          on
+                      Position      [85, 125]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-45, -10; 45, 10]
+                      Parameter {
+                        Variable      "Value"
+                        Value         "kmod_DSVM3L"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          SignalSwitch
+                      Name          "Switch1"
+                      Show          on
+                      Position      [420, 125]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Criteria"
+                        Value         "2"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Threshold"
+                        Value         "2"
+                        Show          on
+                      }
+                    }
+                    Component {
+                      Type          Constant
+                      Name          "alpha"
+                      Show          on
+                      Position      [350, 90]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-20, -10; 20, 10]
+                      Parameter {
+                        Variable      "Value"
+                        Value         "0.5"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Constant
+                      Name          "Level1"
+                      Show          on
+                      Position      [100, 75]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-40, -10; 40, 10]
+                      Parameter {
+                        Variable      "Value"
+                        Value         "LVL_SVM"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "DataType"
+                        Value         "10"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Output
+                      Name          "cm_1"
+                      Show          on
+                      Position      [505, 125]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "1"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Output
+                      Name          "cm_ML"
+                      Show          on
+                      Position      [505, 160]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Index"
+                        Value         "2"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          Input
+                      Name          "in_abc"
+                      Show          on
+                      Position      [160, 25]
+                      Direction     up
+                      Flipped       on
+                      LabelPosition east
+                      Parameter {
+                        Variable      "Index"
+                        Value         "3"
+                        Show          on
+                      }
+                      Parameter {
+                        Variable      "Width"
+                        Value         "-1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          ConstantRelationalOperator
+                      Name          "comp1"
+                      Show          on
+                      Position      [215, 90]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-20, -10; 20, 10]
+                      Parameter {
+                        Variable      "Operator"
+                        Value         "4"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Threshold"
+                        Value         "1"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          ConstantRelationalOperator
+                      Name          "comp2"
+                      Show          on
+                      Position      [215, 125]
+                      Direction     right
+                      Flipped       off
+                      LabelPosition south
+                      Frame         [-20, -10; 20, 10]
+                      Parameter {
+                        Variable      "Operator"
+                        Value         "5"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Threshold"
+                        Value         "0"
+                        Show          off
+                      }
+                    }
+                    Component {
+                      Type          LogicalOperator
+                      Name          "Logical\nOperator"
+                      Show          on
+                      Position      [270, 110]
+                      Direction     up
+                      Flipped       off
+                      LabelPosition south
+                      Parameter {
+                        Variable      "Operator"
+                        Value         "1"
+                        Show          off
+                      }
+                      Parameter {
+                        Variable      "Inputs"
+                        Value         "2"
+                        Show          off
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "alpha cm variable"
+                      SrcTerminal   1
+                      Points        [280, 190; 280, 165]
+                      DstComponent  "Switch"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Switch"
+                      SrcTerminal   1
+                      Points        [350, 160]
+                      Branch {
+                        Points        [350, 130]
+                        DstComponent  "Switch1"
+                        DstTerminal   3
+                      }
+                      Branch {
+                        DstComponent  "cm_ML"
+                        DstTerminal   1
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "alpha"
+                      SrcTerminal   1
+                      Points        [375, 120]
+                      DstComponent  "Switch1"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Level1"
+                      SrcTerminal   1
+                      Points        [420, 75]
+                      DstComponent  "Switch1"
+                      DstTerminal   4
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Switch1"
+                      SrcTerminal   1
+                      DstComponent  "cm_1"
+                      DstTerminal   1
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "in_abc"
+                      SrcTerminal   1
+                      Points        [160, 190]
+                      DstComponent  "alpha cm variable"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "kmod"
+                      SrcTerminal   1
+                      Points        [180, 125]
+                      Branch {
+                        Points        [180, 155]
+                        DstComponent  "Switch"
+                        DstTerminal   2
+                      }
+                      Branch {
+                        DstComponent  "comp1"
+                        DstTerminal   1
+                      }
+                      Branch {
+                        DstComponent  "comp2"
+                        DstTerminal   1
+                      }
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "comp1"
+                      SrcTerminal   2
+                      DstComponent  "Logical\nOperator"
+                      DstTerminal   2
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "comp2"
+                      SrcTerminal   2
+                      DstComponent  "Logical\nOperator"
+                      DstTerminal   3
+                    }
+                    Connection {
+                      Type          Signal
+                      SrcComponent  "Logical\nOperator"
+                      SrcTerminal   1
+                      Points        [325, 110]
+                      DstComponent  "Switch"
+                      DstTerminal   4
+                    }
+                  }
+                }
+                Connection {
+                  Type          Signal
+                  SrcComponent  "in_abc"
+                  SrcTerminal   1
+                  Points        [60, 105]
+                  Branch {
+                    Points        [175, 105]
+                    Branch {
+                      DstComponent  "cm1 injection1"
+                      DstTerminal   1
+                    }
+                    Branch {
+                      Points        [175, 75; 365, 75; 365, 95]
+                      DstComponent  "ML modulo"
+                      DstTerminal   4
+                    }
+                  }
+                  Branch {
+                    DstComponent  "cm gain generator1"
+                    DstTerminal   3
+                  }
+                  Branch {
+                    Points        [60, 50]
+                    Branch {
+                      DstComponent  "Sum8"
+                      DstTerminal   2
+                    }
+                    Branch {
+                      Points        [60, 30]
+                      DstComponent  "Goto"
+                      DstTerminal   1
+                    }
+                  }
+                }
+                Connection {
+                  Type          Signal
+                  SrcComponent  "cm1 injection1"
+                  SrcTerminal   2
+                  Points        [295, 105]
+                  Branch {
+                    DstComponent  "ML modulo"
+                    DstTerminal   3
+                  }
+                  Branch {
+                    Points        [295, 60]
+                    DstComponent  "Sum8"
+                    DstTerminal   3
+                  }
+                }
+                Connection {
+                  Type          Signal
+                  SrcComponent  "cmML injection"
+                  SrcTerminal   2
+                  Points        [650, 105]
+                  DstComponent  "Sum9"
+                  DstTerminal   3
+                }
+                Connection {
+                  Type          Signal
+                  SrcComponent  "Sum9"
+                  SrcTerminal   1
+                  DstComponent  "Switch1"
+                  DstTerminal   2
+                }
+                Connection {
+                  Type          Signal
+                  SrcComponent  "Sum8"
+                  SrcTerminal   1
+                  Points        [645, 55]
+                  Branch {
+                    DstComponent  "Sum9"
+                    DstTerminal   2
+                  }
+                  Branch {
+                    Points        [645, 85; 700, 85]
+                    DstComponent  "Switch1"
+                    DstTerminal   3
+                  }
+                }
+                Connection {
+                  Type          Signal
+                  SrcComponent  "Level"
+                  SrcTerminal   1
+                  Points        [395, 130]
+                  Branch {
+                    DstComponent  "ML modulo"
+                    DstTerminal   2
+                  }
+                  Branch {
+                    Points        [395, 25; 730, 25]
+                    DstComponent  "Switch1"
+                    DstTerminal   4
+                  }
+                }
+                Connection {
+                  Type          Signal
+                  SrcComponent  "Switch1"
+                  SrcTerminal   1
+                  Points        [755, 65]
+                  Branch {
+                    DstComponent  "out"
+                    DstTerminal   1
+                  }
+                  Branch {
+                    Points        [755, 40]
+                    DstComponent  "Goto1"
+                    DstTerminal   1
+                  }
+                }
+                Connection {
+                  Type          Signal
+                  SrcComponent  "cm gain generator1"
+                  SrcTerminal   1
+                  DstComponent  "cm1 injection1"
+                  DstTerminal   3
+                }
+                Connection {
+                  Type          Signal
+                  SrcComponent  "cm gain generator1"
+                  SrcTerminal   2
+                  Points        [175, 130; 175, 165; 495, 165]
+                  Branch {
+                    Points        [530, 165]
+                    DstComponent  "cmML injection"
+                    DstTerminal   3
+                  }
+                  Branch {
+                    DstComponent  "Goto2"
+                    DstTerminal   1
+                  }
+                }
+                Connection {
+                  Type          Signal
+                  SrcComponent  "ML modulo"
+                  SrcTerminal   1
+                  DstComponent  "cmML injection"
+                  DstTerminal   1
+                }
               }
             }
             Connection {
@@ -13621,17 +16665,17 @@ Plecs {
           Direction     up
           Flipped       off
           LabelPosition south
-          Location      [961, 31; 1919, 1070]
+          Location      [961, 31; 1919, 1080]
           State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADzPwCAAAAA/sAAAAQAFoAb"
 "wBvAG0AQQByAGUAYQAAAAAA/////wAAAUwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAA"
 "AA/////wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA8wAAABmAP///wAAAAMAAAQ4AAA"
-"A5fwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAABDgAAABQAP///wAAA74AAAP0"
+"A5fwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAAAABDgAAABQAP///wAAA74AAAP+"
 "AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AA"
 "AAAAAAAAA=="
           SavedViews    "AAAAAgAAAAA="
           HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJA"
-"AAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAAADAAAAZAAAAAEAAABkAAAACAAAAGQAAA"
-"AJAAAAZAAAAAYAAABkAAAA1AAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
+"AAACAAAAGQAAAAJAAAAZAAAAAQAAABkAAAABQAAAGQAAAAGAAAAZAAAAAcAAABkAAAAAQAAAGQAAA"
+"ACAAAAZAAAAAMAAABkAAAA1AAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAC"
 "wAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAA"
 "AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAA"
 "AAAAAAkAAAAAQAAAAAAAAPoAAAAACQ="
@@ -15545,4 +18589,4 @@ Plecs {
     } 
   }
 }
-DemoSignature "ukOiNDQNpPmIFgd4T9Xri38SiBRHrBnsofWgiN4WppY="
+DemoSignature "Nyrz+YlkmHZry7ETUVS7+xJfdRCx+xg2OF3hMK58UUo="
