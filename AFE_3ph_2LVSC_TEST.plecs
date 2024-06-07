@@ -39,7 +39,7 @@ Plecs {
 "\n%----------------\nIDC_begin=20; %initial impact DC current\nIDC_end=-20; %"
 "final impact DC current\n\n%----------------\n% dc-link\n%----------------\nV"
 "_dc=750; %dc-link voltage\nC_dc=1200e-6; %dc-link capacitance\n\n%-----------"
-"-----\n% line filter\n%----------------\nL_f=350e-6; %total inductance\na=0.9"
+"-----\n% line filter\n%----------------\nL_f=300e-6; %total inductance\na=0.9"
 "; %rectifier:grid inductance ratio\nL_fr=L_f*a; % rectifier-side inductance\n"
 "L_fg=L_f*(1-a); % grid-side inductance\nC_f=6e-6; %capacitance\nR_fd=0.1; %se"
 "ries damping  resistance\nR_f=0.05; %filter series coil resistance\ns_cfilt=0"
@@ -102,6 +102,7 @@ Plecs {
 "AAZAAAAAQAAABkAAABBwAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAADjAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
+"AAkAAAAAQAAAAAAAAPoAAAAACQ="
 "AAkAAAAAQAAAAAAAAPoAAAAACQ="
       PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA"
 "AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -454,6 +455,7 @@ Plecs {
           LabelPosition south
           Location      [961, 31; 1919, 1041]
           State         "AAAA/wAAAAD9AAAAAgAAAAEAAAC0AAADwfwCAAAAA/sAAAAQAFoAb"
+"wBvAG0AQQByAGUAYQAAAAAA/////wAAAKwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwIAAA"
 "wBvAG0AQQByAGUAYQAAAAAA/////wAAAKwA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwIAAA"
 "OuAAABzgAAAMgAAAB4+wAAAAwAVAByAGEAYwBlAHMAAAAALwAAA8EAAABmAP///wAAAAMAAAAAAAA"
 "AAPwBAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQAAAAAAP////8AAABQAP///wAAA74AAAPX"
@@ -6029,13 +6031,6 @@ Plecs {
                   DstComponent  "Sum4"
                   DstTerminal   3
                 }
-                Connection {
-                  Type          Signal
-                  SrcComponent  "Gain1"
-                  SrcTerminal   2
-                  DstComponent  "Sum4"
-                  DstTerminal   2
-                }
               }
             }
             Component {
@@ -8102,7 +8097,7 @@ Plecs {
             Direction     left
           }
           Schematic {
-            Location      [6, 399; 883, 725]
+            Location      [18, 404; 895, 730]
             ZoomFactor    1
             SliderPosition [0, 0]
             ShowBrowser   off
@@ -8418,7 +8413,7 @@ Plecs {
               Frame         [-20, -10; 20, 10]
               Parameter {
                 Variable      "Value"
-                Value         "4"
+                Value         "4.5"
                 Show          off
               }
               Parameter {
